@@ -1,0 +1,18 @@
+The input number is less than the midVal for each call to findNumber(), so the recursive case is reached, " b" is printed, and the lower half is searched from lowVal to midVal.
+ 
+When number equals midVal, the base case is reached and " a" is printed.
+
+Recursive method call outputs:
+findNumber(0, 0, 12) prints: 0 6 b
+findNumber(0, 0, 6) prints: 0 3 b
+findNumber(0, 0, 3) prints: 0 1 b
+findNumber(0, 0, 1) prints: 0 0 a
+Yours	b	Expected	
+0 6 b
+0 3 b
+0 1 b
+0 0 a
+Create your missing newline by pressing Enter on your keyboard.
+You are missing a newline here.
+You are missing a newline here.
+You are missing a newline on the last line of your output.
